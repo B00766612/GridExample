@@ -27,7 +27,7 @@ public class MyUI extends UI {
         final VerticalLayout layout = new VerticalLayout();
         
         final TextField name = new TextField();
-        name.setCaption("Tested log full deploy again:");
+        name.setCaption("Tested log2 full deploy again:");
 
         Button button = new Button("working??");
         button.addClickListener(e -> {
