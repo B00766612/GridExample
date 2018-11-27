@@ -29,6 +29,7 @@ public class MyUI extends UI {
         final TextField name = new TextField();
         name.setCaption("Tested log2 full deploy again:");
 
+        Button button2 = new Button("new button??");
         Button button = new Button("working??");
         button.addClickListener(e -> {
             layout.addComponent(new Label("Yippee " + name.getValue() 
@@ -36,7 +37,7 @@ public class MyUI extends UI {
 
         });
         
-        layout.addComponents(name, button);
+        layout.addComponents(name, button, button2);
         
         setContent(layout);
     }
